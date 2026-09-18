@@ -2,7 +2,7 @@
 
 **Next-Generation Monolithic Silicon Architecture & Cognitive Compute Engine**
 
-![Live Demo]() ![3nm FinFET]() ![512 Cores]() ![890 TOPS]() ![1.8 TB/s]() ![Status]()
+Live Demo · 3nm FinFET · 512 Cores · 890 TOPS · 1.8 TB/s · Status
 
 ---
 
