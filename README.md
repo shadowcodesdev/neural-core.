@@ -8,13 +8,13 @@
 
 ## Overview
 
-[Neural Core (NC-01)](https://neural-core-a-new-future.vercel.app/) is an exploratory 3D silicon monograph and interactive architectural web experience. This project serves as an experimental exploration of next-generation compute hardware and interactive 3D web design.
+[Neural Core (NC-01)](https://neural-core-a-new-future.vercel.app/) is an exploratory 3D silicon monograph and interactive architectural web experience. This project serves as an experimental exploration of high-density compute, packaging, and futuristic interface design.
 
 > **Disclaimer**: All hardware specifications, compute metrics, and packaging data presented throughout this project are purely fictional and designed specifically for visual storytelling, 3D composition, and interactive web experimentation.
 
-Featuring an exploded nanoscale hardware disassembly, simulated 512-core silicon fabric telemetry, and interactive cross-sectional packaging exploration, Neural Core pushes the frontier of web-based hardware visualization.
+Featuring an exploded nanoscale hardware disassembly, simulated 512-core silicon fabric telemetry, and interactive cross-sectional packaging exploration, Neural Core pushes the frontier of web-based technical storytelling.
 
-![Hero Monolith](screenshots/screenshot_01_hero_monolith.jpg)
+![Hero Monolith](screenshots/screenshot_01_hero_monolith.png)
 
 ```
  _   _                      _    ____                 
@@ -40,7 +40,7 @@ graph TD
     E --> F[Memory & Power Ring: GDDR7 + Solid-State Inductors]
 ```
 
-![Carrier Assembly](screenshots/screenshot_03_carrier_assembly.jpg)
+![Carrier Assembly](screenshots/screenshot_03_carrier_assembly.png)
 
 ### 1. Tier 01 // Structural Retention Rim
 
@@ -84,7 +84,7 @@ graph TD
 
 ## Workloads & Telemetry Matrix
 
-![Workloads Dock](screenshots/screenshot_05_workloads_dock.jpg)
+![Workloads Dock](screenshots/screenshot_05_workloads_dock.png)
 
 The application features an interactive silicon fabric terminal tracking 512 simulated cores across 8 clusters in real time:
 
@@ -98,7 +98,7 @@ The application features an interactive silicon fabric terminal tracking 512 sim
   * **Robotics & Spatial Computing**: Sub-millisecond closed actuation loops.  
   * **CXL Cluster Fabric**: Multi-chassis symmetric memory pooling.
 
-![Architectural Summary](screenshots/screenshot_06_return_monograph.jpg)
+![Architectural Summary](screenshots/screenshot_06_return_monograph.png)
 
 ---
 
