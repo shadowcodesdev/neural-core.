@@ -1,33 +1,61 @@
+<div align="center">
+
 # NEURAL CORE // NC-01 ULTRA-TENSOR
 
-**Next-Generation Monolithic Silicon Architecture & Cognitive Compute Engine**
+### Next-Generation Monolithic Silicon Architecture & Cognitive Compute Engine
 
-Live Demo · 3nm FinFET · 512 Cores · 890 TOPS · 1.8 TB/s · Status
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-00FF87?style=for-the-badge&logo=vercel&logoColor=090A0C)](https://neural-core-a-new-future.vercel.app/) 
+![3nm FinFET](https://img.shields.io/badge/Process-3nm%20FinFET-00FF87?style=for-the-badge&labelColor=090A0C)
+![512 Cores](https://img.shields.io/badge/Compute-512%20Cores-00FF87?style=for-the-badge&labelColor=090A0C)
+![890 TOPS](https://img.shields.io/badge/Peak-890%20TOPS-00FF87?style=for-the-badge&labelColor=090A0C)
 
----
+<p>
+  <strong>An interactive 3D silicon monograph for exploring futuristic compute architecture, packaging, and telemetry.</strong>
+</p>
 
-## Overview
+</div>
 
-[Neural Core (NC-01)](https://neural-core-a-new-future.vercel.app/) is an exploratory 3D silicon monograph and interactive architectural web experience. This project serves as an experimental exploration of high-density compute, packaging, and futuristic interface design.
+<p align="center">
+  <img src="screenshots/screenshot_01_hero_monolith.png" alt="Neural Core hero monolith" width="100%" />
+</p>
 
-> **Disclaimer**: All hardware specifications, compute metrics, and packaging data presented throughout this project are purely fictional and designed specifically for visual storytelling, 3D composition, and interactive web experimentation.
+> **Project status:** Experimental concept · **Specification revision:** `v2.4 - NOMINAL`
+>
+> **Disclaimer:** All hardware specifications, compute metrics, and packaging data are fictional and designed for visual storytelling, 3D composition, and interactive web experimentation.
 
-Featuring an exploded nanoscale hardware disassembly, simulated 512-core silicon fabric telemetry, and interactive cross-sectional packaging exploration, Neural Core pushes the frontier of web-based technical storytelling.
+## ✦ Overview
 
-![Hero Monolith](screenshots/screenshot_01_hero_monolith.png)
+[Neural Core (NC-01)](https://neural-core-a-new-future.vercel.app/) is an exploratory 3D silicon monograph and interactive architectural web experience. It presents an exploded nanoscale hardware disassembly, simulated 512-core silicon fabric telemetry, and interactive cross-sectional packaging exploration through a cinematic technical interface.
 
-```
- _   _                      _    ____                 
-| \ | | ___ _   _ _ __ __ _| |  / ___|___  _ __ ___   
-|  \| |/ _ \ | | | '__/ _` | | | |   / _ \| '__/ _ \  
-| |\  |  __/ |_| | | | (_| | | | |__| (_) | | |  __/  
-|_| \_|\___|\__,_|_|  \__,_|_|  \____\___/|_|  \___|  
+```text
+ _   _                      _    ____
+| \ | | ___ _   _ _ __ __ _| |  / ___|___  _ __ ___
+|  \| |/ _ \ | | | '__/ _` | | | |   / _ \| '__/ _ \
+| |\  |  __/ |_| | | | (_| | | | |__| (_) | | |  __/
+|_| \_|\___|\__,_|_|  \__,_|_|  \____\___/|_|  \___|
              NC-01 ULTRA-TENSOR // SYNAPSE ARCHITECTURE
 ```
 
----
+## ◈ At a Glance
 
-## Silicon Architecture & Fabrication Tiers
+| System | Specification |
+| :--- | :--- |
+| **Process** | 3nm Monolithic FinFET |
+| **Compute** | 512 symmetric compute tiles · 2D torus topology |
+| **Peak Tensor Compute** | 890 TOPS · FP8 dense / sparse acceleration |
+| **Memory** | Up to 96 GB high-bandwidth GDDR7 |
+| **Fabric Bandwidth** | 1.8 TB/s sustained inter-tile bandwidth |
+| **Interface** | PCI Express Gen 6.0 x16 / CXL 3.1 |
+
+## ⌁ Contents
+
+- [Silicon Architecture](#-silicon-architecture)
+- [Hardware Specifications](#-hardware-specifications)
+- [Workloads & Telemetry](#-workloads--telemetry)
+- [Tech Stack](#-tech-stack)
+- [Author & Credits](#-author--credits)
+
+## ⌁ Silicon Architecture
 
 Neural Core breaks down silicon packaging into four distinct fabrication tiers using interactive 3D camera staging and GSAP-driven scroll sequencing:
 
@@ -40,33 +68,33 @@ graph TD
     E --> F[Memory & Power Ring: GDDR7 + Solid-State Inductors]
 ```
 
-![Carrier Assembly](screenshots/screenshot_03_carrier_assembly.png)
+<p align="center">
+  <img src="screenshots/screenshot_03_carrier_assembly.png" alt="Neural Core carrier assembly" width="92%" />
+</p>
 
-### 1. Tier 01 // Structural Retention Rim
+### Tier 01 // Structural Retention Rim
 
-* **Material**: Aircraft-Grade CNC Anodized Silver Alloy with satin micro-finish.  
-* **Dimensions**: `53.8mm × 53.8mm` (0.6mm margin, 0.42mm thickness).  
-* **Engineering**: 45° Pin-1 corner notch, 0.20mm inner chamfer lip, and calibrated vapor chamber clamping interface.
+- **Material:** Aircraft-grade CNC anodized silver alloy with satin micro-finish.
+- **Dimensions:** `53.8mm × 53.8mm` with a `0.42mm` thickness.
+- **Engineering:** 45° Pin-1 corner notch, 0.20mm inner chamfer lip, and calibrated vapor-chamber clamping interface.
 
-### 2. Tier 02 // Monolithic Compute Die (Exposed NPU)
+### Tier 02 // Monolithic Compute Die
 
-* **Process Lithography**: TSMC 3nm Monolithic FinFET.  
-* **Die Footprint**: `28.0mm × 26.0mm` (728 mm² die area, 0.40mm profile).  
-* **Microarchitecture**: Dense repeating systolic multiplier arrays (MAC tiles) flanking central high-density SRAM cache blocks with iridescent monocrystalline optical refraction.
+- **Process lithography:** TSMC 3nm Monolithic FinFET.
+- **Die footprint:** `28.0mm × 26.0mm` with a 728 mm² die area.
+- **Microarchitecture:** Repeating systolic multiplier arrays flanking high-density SRAM cache blocks.
 
-### 3. Tier 03 // On-Package Decoupling Matrix & Underfill
+### Tier 03 // Decoupling Matrix & Underfill
 
-* **Passive Arrays**: High-density `0402` and `0201` multi-rail MLCC capacitor banks bordering all four package quadrants with gold solder pads.  
-* **Environmental Sealing**: Continuous `0.6mm` glossy black epoxy underfill fillet protecting microscopic C4 interconnects.
+- **Passive arrays:** High-density `0402` and `0201` multi-rail MLCC capacitor banks.
+- **Environmental sealing:** Continuous `0.6mm` glossy black epoxy underfill fillet protecting C4 interconnects.
 
-### 4. Tier 04 // High-Density FCBGA Substrate
+### Tier 04 // High-Density FCBGA Substrate
 
-* **Package Stack**: 16-layer high-Tg organic laminate (`55.0mm × 55.0mm × 1.6mm`).  
-* **Metallurgy & Coating**: Taiyo dark matte charcoal soldermask, flush gold Pin-1 alignment indexing, and ENIG test points.
+- **Package stack:** 16-layer high-Tg organic laminate (`55.0mm × 55.0mm × 1.6mm`).
+- **Metallurgy:** Taiyo dark matte charcoal soldermask, gold Pin-1 indexing, and ENIG test points.
 
----
-
-## Hardware Specifications (Fictional Concept)
+## ◈ Hardware Specifications
 
 | Specification Metric | Technical Detail |
 | :--- | :--- |
@@ -77,43 +105,44 @@ graph TD
 | **Interconnect Bandwidth** | **1.8 TB/s** Sustained Inter-Tile Fabric |
 | **L3 Distributed Cache** | 256 MB Coherent Torus Mesh (**0.42 ns** latency) |
 | **Host Interface** | PCI Express Gen 6.0 x16 / CXL 3.1 Switched Fabric |
-| **Thermal Envelope (TDP)** | 35W (Edge Ingestion) to 450W (Hyperscale Datacenter) |
+| **Thermal Envelope** | 35W edge ingestion to 450W hyperscale datacenter |
 | **Packaging Technology** | 16-Layer High-Tg ENIG Organic FCBGA |
 
----
+## ⌁ Workloads & Telemetry
 
-## Workloads & Telemetry Matrix
+<p align="center">
+  <img src="screenshots/screenshot_05_workloads_dock.png" alt="Neural Core workloads dock" width="92%" />
+</p>
 
-![Workloads Dock](screenshots/screenshot_05_workloads_dock.png)
+The application features an interactive silicon fabric terminal tracking 512 simulated cores across 8 clusters in real time.
 
-The application features an interactive silicon fabric terminal tracking 512 simulated cores across 8 clusters in real time:
+| Telemetry | Value |
+| :--- | :--- |
+| **Inter-core latency** | `0.42 ns` non-blocking 2D torus communication |
+| **Simulated kernels** | `ROPE_ROTARY_EMB` · `ATTN_FLASH_V3` · `GELU_FUSED_TENSOR` |
+| **LLM workload** | 185 tokens/sec for 70B FP8 models |
+| **Context window** | 128K |
+| **Target scenarios** | LLMs · robotics · spatial computing · CXL fabrics |
 
-* **Latency**: `0.42 ns` non-blocking 2D Torus inter-core communication.  
-* **Simulated Kernels**:  
-  * `ROPE_ROTARY_EMB` — High-efficiency rotary position embedding.  
-  * `ATTN_FLASH_V3` — Hardware-accelerated attention mechanism.  
-  * `GELU_FUSED_TENSOR` — Fused activation pipelines.  
-* **Target Scenarios**:  
-  * **Autonomous Reasoning / LLMs**: 185 tokens/sec (70B FP8), 0.12 ms KV-cache latency, 128K context window.  
-  * **Robotics & Spatial Computing**: Sub-millisecond closed actuation loops.  
-  * **CXL Cluster Fabric**: Multi-chassis symmetric memory pooling.
+<p align="center">
+  <img src="screenshots/screenshot_06_return_monograph.png" alt="Neural Core architectural summary" width="92%" />
+</p>
 
-![Architectural Summary](screenshots/screenshot_06_return_monograph.png)
+## ⚙ Tech Stack
 
----
+- **Core framework:** [Next.js](https://nextjs.org/) / [React](https://react.dev/)
+- **3D visual engine:** [Three.js](https://threejs.org/) / WebGL with custom GLSL shaders
+- **Motion and scrubbing:** [GSAP](https://greensock.com/gsap/) with [ScrollTrigger](https://greensock.com/scrolltrigger/)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **Design language:** Dark sci-fi HUD terminal with an obsidian base, matrix-green accents, and monospace telemetry
 
-## Tech Stack & 3D Implementation
+## ✦ Author & Credits
 
-* **Core Framework**: [Next.js](https://nextjs.org/) / [React](https://react.dev/)  
-* **3D Visual Engine**: [Three.js](https://threejs.org/) / WebGL with custom GLSL shaders (iridescence, circuit traces, surface normals)  
-* **Motion & Scrubbing**: [GSAP](https://greensock.com/gsap/) with [ScrollTrigger](https://greensock.com/scrolltrigger/)  
-* **Styling**: [Tailwind CSS](https://tailwindcss.com/)  
-* **Design Philosophy**: High-precision dark sci-fi HUD terminal (`#090A0C` obsidian base, `#00FF87` matrix green accents, monospace telemetry).
+- **Architect & Design:** **SHADOW CODES** ([@shadowcodesdev](https://github.com/shadowcodesdev))
+- **Live Showcase:** [neural-core-a-new-future.vercel.app](https://neural-core-a-new-future.vercel.app/)
 
----
+<div align="center">
 
-## Author & Credits
+### [Launch the Live Demo →](https://neural-core-a-new-future.vercel.app/)
 
-* **Architect & Design**: **SHADOW CODES** ([@shadowcodesdev](https://github.com/shadowcodesdev))  
-* **Live Showcase**: [neural-core-a-new-future.vercel.app](https://neural-core-a-new-future.vercel.app/)  
-* **Specification Revision**: `v2.4 - NOMINAL`
+</div>
